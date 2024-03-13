@@ -5,7 +5,7 @@ import java.io.IOException;
 //Anthony Meza ameza72@toromail.csudh.edu
 public class NumberFileWriter {
     public static void main(String[] args) {
-        int[] numbers = {243, 62, 783, 10300, 401, 6113};
+        int[] numbers = {2433, 622, 7853, 1033300, 4021, 61139};
         NumberFileWriter fw = new NumberFileWriter("./numberFileOut.txt");
         try {
             fw.write(numbers);
